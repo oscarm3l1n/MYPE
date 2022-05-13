@@ -54,8 +54,6 @@ if USE_START_POINTS:
     for i in model.labels_:
         myset.add(i)
     clusters = []
-    # Need 4 colours
-    
     colors = []
 
     for i in myset:
